@@ -1,15 +1,41 @@
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
-    public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    //esto es un comentario
+    /*este comentario
+    se puede dividir en
+    varias lineas de codigo
+     */
+    // TODO me falta esto
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+    public static void main(String[] args) {
+        System.out.println("Primer programa en JAVA");
+        String miNombre = "Borja"; // null
+        char letraDNI = 'A';
+        int edad = 41;
+        double altura = 1.71;
+        float peso = 70.7f;
+        boolean experiencia = true;
+
+        letraDNI = 109;
+        miNombre = "Borja M. H.";
+        altura = 1.75;
+        peso = 67.5f;
+        experiencia = false;
+
+        System.out.println("Mi nombre es: "+miNombre);
+        System.out.println("La letra de mi dni es "+letraDNI);
+        System.out.println("Mi edad es "+edad+" años");
+        System.out.println("Mi altura es de "+altura+" cm");
+        System.out.println("Mi peso es de "+peso+" kg");
+        System.out.println("Mi experiencia es: "+experiencia);
+
     }
+
+
+    public void nombreMetodo() {
+
+    }
+    // TODO esto tambien esta pendiente
+
 }
