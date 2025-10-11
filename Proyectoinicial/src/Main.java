@@ -24,8 +24,8 @@ public class Main {
         experiencia = false;
 
         System.out.println("Mi nombre es: "+miNombre);
-        System.out.println("La letra de mi dni es "+letraDNI);
         System.out.println("Mi edad es "+edad+" años");
+        System.out.println("La letra de mi dni es "+letraDNI);
         System.out.println("Mi altura es de "+altura+" cm");
         System.out.println("Mi peso es de "+peso+" kg");
         System.out.println("Mi experiencia es: "+experiencia);
