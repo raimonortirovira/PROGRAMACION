@@ -8,6 +8,11 @@ public class Main {
      */
     // TODO me falta esto
 
+    /**
+     *
+     * @param args
+     */
+
     public static void main(String[] args) {
         System.out.println("Primer programa en JAVA");
         String miNombre = "Borja"; // null
