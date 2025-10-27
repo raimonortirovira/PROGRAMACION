@@ -1,14 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+public class Entrada {
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
+    // variables
+    int edad = 23; // Variable de instancia
+
+    // metodos
+
+    // El método principal para ejecutar el programa
+    public static void main (String [] args){
+        // Si desea acceder a 'edad' desde aquí, debe crear una instancia de la clase:
+        // Entrada miObjeto = new Entrada();
+        // System.out.println("Edad: " + miObjeto.edad);
+    }
+
+    // Método que recibe dos parámetros e invoca a metodoDos
+    public void nombreMetodo(int numero, int elemento) {
+        System.out.println(numero);
+        System.out.println(elemento);
+
+        // Llamada al otro método
+        metodoDos();
+    }
+
+
+    // Método sin parámetros ni retorno
+    public void metodoDos() {
+        // Ejemplo de uso de la variable de instancia
+        System.out.println("La edad en metodoDos es: " + edad);
     }
 }
-   
