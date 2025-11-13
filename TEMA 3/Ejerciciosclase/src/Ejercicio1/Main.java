@@ -1,4 +1,6 @@
-package ejercicio1
+package Ejercicio1
+
+import java.util.Scanner;
 
 public class Main {
     /*
@@ -15,6 +17,19 @@ nuevamente un número.
 
      */
     public static void main (String[] args) {
-        
+       Scanner scanner = new Scanner(System.in);
+       int numeroSistema = (int) (Math.random(*50) +1; // 0-0.999999
+        int intentos =7;
+        int numeroUsuario;
+        boolean acierto = false;
+        do {
+            System.out.println("Indica el numero con el que juegas");
+            numeroUsuario = scanner.nextInt();
+            if (numeroSistema ==numeroUsuario){
+                System.out.println("Has acertado el numero");
+                break
+            }
+            //vas a pedir numero 7max min1
+        }while (intentos>0);
     }
 }
