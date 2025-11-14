@@ -1,7 +1,3 @@
-import java.lang.classfile.attribute.SourceDebugExtensionAttribute;
-import java.net.SocketAddress;
-import java.sql.SQLOutput;
-
 public class Main {
 
     // esto es un comentario
@@ -16,6 +12,10 @@ public class Main {
         System.out.print("Primer programa en Java\n");
         String miNombre = "Borja"; // null
 
+
+        final String DNI = "23423434";
+        Double alturaCompleja = 21.76;
+        double altura 1.71;
         char letraDNI = 'L';
         int edad = 41;
         double altura = 1.71234234234234;
@@ -35,6 +35,3 @@ public class Main {
         System.out.println("Mi altura es de "+altura + " cm");
         System.out.println("Mi peso es de "+peso + " kg");
         System.out.println("Mi experiencia es: "+experiencia);
-
-}
-}
